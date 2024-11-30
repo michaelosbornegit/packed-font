@@ -1,4 +1,9 @@
 # Packed Font
+# Fork edits (why you're here :))
+1. Add dripicons.tff icon font library and pack into dripicons-v2.pf in fonts folder
+
+# Existing repo README below:
+
 ## Memory efficient MicroPython fonts for the Pico Pi and SSD1306 OLED Display
 
 MicroPython comes with an 8 x 8 pixel font which allows for a surprising amount of text to be displayed on the tiny OLED display. However the font is very small, especially for those of us getting older.  
