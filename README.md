@@ -1,6 +1,39 @@
 # Packed Font
-# Fork edits (why you're here :))
-1. Add dripicons.tff icon font library and pack into dripicons-v2.pf in fonts folder
+# Fork edits
+1. Add [dripicons.tff](http://demo.amitjakhu.com/dripicons/) icon font and pack into ready to go .pf files in fonts folder in 16, 24, and 32 px sizes, see reference images below for included icons
+1. Add [generate-font-reference-image.py](create/generate-font-reference-image.py) to generate images to view fonts (see next section)
+1. Add `create-dripicons-v2.sh` script with commands to generate all packed files and images
+1. Modify `create-font.py` to delete existing bitmap images in output folder to support easy subsequent running
+
+**KNOWN ISSUES:**
+
+1. Some of the icons are a little cut off, I should probably use the provided xoffsets args to fix that
+
+## Drip Icons Unicode Reference Images
+<details>
+<summary>16px</summary>
+
+![image](fonts/dripicons/dripicons-v2-16-split1.tff.png)
+![image](fonts/dripicons/dripicons-v2-16-split2.tff.png)
+![image](fonts/dripicons/dripicons-v2-16-split3.tff.png)
+</details>
+<details open>
+<summary>24px</summary>
+
+![image](fonts/dripicons/dripicons-v2-24-split1.tff.png)
+![image](fonts/dripicons/dripicons-v2-24-split2.tff.png)
+![image](fonts/dripicons/dripicons-v2-24-split3.tff.png)
+</details>
+<details>
+<summary>32px</summary>
+
+![image](fonts/dripicons/dripicons-v2-32-split1.tff.png)
+![image](fonts/dripicons/dripicons-v2-32-split2.tff.png)
+![image](fonts/dripicons/dripicons-v2-32-split3.tff.png)
+</details>
+
+
+
 
 # Existing repo README below:
 

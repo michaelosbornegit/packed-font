@@ -1,0 +1,80 @@
+{
+    "Name": "dripicons-v2-16-split3.pf",
+    "Height": 18,
+    "Width": 24,
+    "DefaultCharacter": ".",
+    "Characters": [
+        {
+            "Code": "!",
+            "Width": 17,
+            "Height": 15,
+            "Filename": "U033.bmp"
+        },
+        {
+            "Code": "\"",
+            "Width": 16,
+            "Height": 15,
+            "Filename": "U034.bmp"
+        },
+        {
+            "Code": "#",
+            "Width": 16,
+            "Height": 15,
+            "Filename": "U035.bmp"
+        },
+        {
+            "Code": "$",
+            "Width": 16,
+            "Height": 15,
+            "Filename": "U036.bmp"
+        },
+        {
+            "Code": "%",
+            "Width": 16,
+            "Height": 15,
+            "Filename": "U037.bmp"
+        },
+        {
+            "Code": "&",
+            "Width": 17,
+            "Height": 15,
+            "Filename": "U038.bmp"
+        },
+        {
+            "Code": "'",
+            "Width": 16,
+            "Height": 15,
+            "Filename": "U039.bmp"
+        },
+        {
+            "Code": "(",
+            "Width": 16,
+            "Height": 15,
+            "Filename": "U040.bmp"
+        },
+        {
+            "Code": ")",
+            "Width": 17,
+            "Height": 15,
+            "Filename": "U041.bmp"
+        },
+        {
+            "Code": "*",
+            "Width": 16,
+            "Height": 16,
+            "Filename": "U042.bmp"
+        },
+        {
+            "Code": "+",
+            "Width": 17,
+            "Height": 15,
+            "Filename": "U043.bmp"
+        },
+        {
+            "Code": ",",
+            "Width": 17,
+            "Height": 15,
+            "Filename": "U044.bmp"
+        }
+    ]
+}

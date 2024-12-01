@@ -16,6 +16,7 @@ import json
 from PIL import Image, ImageFont, ImageDraw
 import os
 import sys
+import glob
 
 def len_in_bytes(pixels):
     return int((pixels + 7) / 8)
@@ -103,6 +104,11 @@ if __name__ == "__main__":
 
     destFolder = os.path.dirname(args.fontPathname)
     ensure_folder_exists(destFolder)
+
+    # Clear out all existing .bmp files in the destination folder
+    bmp_files = glob.glob(os.path.join(destFolder, '*.bmp'))
+    for bmp_file in bmp_files:
+        os.remove(bmp_file)
 
     packed_font_filename = os.path.basename(args.fontPathname)
     packed_font_filename, _ = os.path.splitext(packed_font_filename)
