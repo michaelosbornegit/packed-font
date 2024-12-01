@@ -7,7 +7,7 @@
 
 **KNOWN ISSUES:**
 
-1. Some of the icons are a little cut off, I should probably use the provided xoffsets args to fix that
+1. Some of the icons are a little cut off, I should probably use the provided xoffsets args to fix that or I noticed heights and widths in the json files outside the bounds of what I provided (I noticed values of 27px in the 24px generated files), worth investigating to see if rewriting the code to force it under the provided height/width would be best
 
 ## Drip Icons Unicode Reference Images
 <details>
